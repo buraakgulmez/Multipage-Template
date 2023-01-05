@@ -1,0 +1,1257 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER START*/
+
+#Header .alan {
+  display: flex;
+  align-items: center;
+}
+
+#Header::after {
+  display: block;
+  width: 100%;
+  height: 15vw;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background: #1b2846;
+  content: "";
+  transform: rotate(-5.5deg) translate(-50%, 68%);
+  transform-origin: top left;
+  z-index: 0;
+}
+
+#Header {
+  padding: 40px 0px 134px;
+  background: linear-gradient(-135deg, #00b4d5 0, #005ca3 100%);
+  overflow: hidden;
+  padding-bottom: 7vw;
+  position: relative;
+}
+
+#Header .services img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px transition 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+#Header .services a {
+  color: #fff;
+  text-decoration: none;
+}
+#Header .s1 {
+  display: flex;
+  margin-top: 10px;
+  max-width: 9rem;
+  font-size: 18px;
+}
+
+#Header .Sol-Yazi {
+  width: 50;
+}
+
+#Header .Sag-Photo {
+  width: 50%;
+}
+
+#Header .Sag-Photo img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  transform: rotate(15deg);
+}
+
+#Header .ust-alan {
+  display: flex;
+  padding: 50px;
+}
+
+#Header .s2 {
+  display: flex;
+  margin-top: 10px;
+  max-width: 9rem;
+  font-size: 18px;
+  color: #f1bc20;
+}
+
+#Header .services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#Header .header-logo {
+  width: 50%;
+  text-align: center;
+}
+
+#Header .header-logo img {
+  width: 300px;
+  object-fit: contain;
+}
+
+#Header .header-sag-menu {
+  width: 50%;
+}
+
+#Header .container h1 {
+  margin-top: 1em;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  color: #fff;
+  max-width: 40rem;
+  font-weight: 200;
+}
+
+#Header .container p {
+  font-size: 1.25rem;
+  line-height: 1.1;
+  color: #f6c01c;
+  max-width: 22rem;
+  margin: 1.75em 0;
+}
+
+#Header .header-sag-menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Header .header-sag-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+}
+#Header .border-sabit {
+  border-bottom: 3px solid #f48033 !important;
+  padding: 6px;
+}
+
+#Header .header-sag-menu a:hover {
+  border-bottom: 3px solid #5ba6f2;
+}
+
+#Header 
+
+/*HEADER END*/
+
+/* CANADA START */
+
+
+#Canada::before {
+  display: block;
+  width: 120%;
+  height: 10vw;
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  content: "";
+  top: 0;
+  background: #1b2846;
+  transform: rotate(-5.5deg) translate(-50%, -50%);
+  transform-origin: top left;
+}
+
+#Canada {
+  background: #1b2846;
+  padding: 40px;
+  clip-path: polygon(
+    20% 0%,
+    70% 0%,
+    100% 0,
+    100% 64%,
+    82% 71%,
+    29% 90%,
+    0 100%,
+    0 0
+  );
+}
+
+#Canada .Baslik {
+}
+#Canada .image i {
+  font-size: 60px;
+}
+
+#Canada .image-orta i {
+  font-size: 60px;
+}
+
+#Canada .image {
+  background: #0088bc;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Canada .image-p {
+  font-size: 16px;
+  color: #b2c3cc;
+  margin-top: 15px;
+}
+
+#Canada .button {
+  background: #f48033;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #f48033;
+  font-weight: 600;
+  padding: 16px;
+}
+
+#Canada .icerikler {
+  display: flex;
+  align-items: center;
+}
+
+#Canada .icerik {
+  width: 33%;
+  margin-right: 8%;
+}
+
+#Canada .image-orta {
+  background: #f48033;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Canada .Baslik h2 {
+  color: #f1bc20;
+  font-weight: 200;
+  font-size: 35px;
+}
+
+#Canada .Baslik p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #fff;
+  margin: 0.5em 0;
+  max-width: 22em;
+}
+
+/* CANADA START */
+
+/* COMMENTS START */
+
+#Comments {
+  text-align: center;
+}
+
+#Comments .Baslik h2 {
+  font-size: 35px;
+  color: #1b2846;
+  font-weight: 200;
+}
+
+#Comments .Baslik i {
+  font-size: 35px;
+  transform: rotate(180deg);
+  color: #b2c3cc;
+}
+
+#Comments .Baslik p {
+  color: #70828b;
+  font-size: 19px;
+}
+#Comments .avatar {
+  font-size: 45px;
+  color: #b2c3cc;
+}
+
+#Comments .avatar-p {
+  font-style: normal;
+  font-weight: 600;
+  color: #f48033;
+  font-size: 16px;
+}
+
+#Comments .location {
+  color: #b2c3cc;
+  font-size: 16px;
+  margin-top: -17px;
+}
+
+/* COMMENTS END */
+
+/*WHY START*/
+
+#WhyChooseUs {
+  background: #e9eef0;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#WhyChooseUs .AnaBaslik {
+  text-align: center;
+}
+
+#WhyChooseUs .AnaBaslik i {
+  font-size: 40px;
+  transform: rotate(-45deg);
+  color: #0088bc;
+  margin-bottom: -15px;
+}
+
+#WhyChooseUs .AnaBaslik h3 {
+  font-size: 36px;
+  line-height: 1.05;
+  color: #1b2846;
+  max-width: 300px;
+  font-weight: 200;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#WhyChooseUs .aciklamalar {
+  display: flex;
+  padding: 50px;
+}
+
+#WhyChooseUs .personal {
+  width: 33%;
+}
+
+#WhyChooseUs i {
+  font-size: 40px;
+  color: #5ba6f3;
+  display: flex;
+  justify-content: center;
+}
+
+#WhyChooseUs .p {
+  font-weight: 600;
+  color: #1b2846;
+  text-align: center;
+  padding: 20px;
+}
+
+#WhyChooseUs p {
+  color: #70828b;
+}
+
+#WhyChooseUs .applications {
+  width: 33%;
+}
+
+#WhyChooseUs .important {
+  width: 34%;
+}
+
+#WhyChooseUs .why-button {
+  background: #f48033;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #f48033;
+  font-weight: 600;
+  padding: 16px;
+}
+
+/*WHY END*/
+
+/*FOOTER START*/
+
+#Footer .container {
+  display: flex;
+}
+
+#Footer {
+  background: #1b2846;
+  padding: 40px;
+}
+
+#Footer .hakkimizda {
+  width: 40%;
+}
+
+#Footer .services {
+  width: 40%;
+  margin-left: 30px;
+  display: flex;
+}
+
+#Footer .footer-menu {
+  width: 20%;
+}
+
+#Footer .hakkimizda h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #f6c01c;
+}
+
+#Footer .hakkimizda p {
+  line-height: 1.5;
+  color: #637cb5;
+  font-size: 14px;
+}
+
+#Footer .services-baslik a {
+  text-decoration: none;
+  color: #7199c2;
+  font-weight: 700;
+  font-size: 16px;
+}
+#Footer .services .a-baslik {
+  text-decoration: none;
+  color: #7199c2;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#Footer .services-yazi a {
+  color: #7199c2;
+  text-decoration: none;
+}
+
+#Footer .services-yazi {
+  list-style-type: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+#Footer li {
+  margin-bottom: 6px;
+  list-style-type: none;
+}
+
+#Footer .footer-menu a {
+  text-decoration: none;
+  color: #7199c2;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#Footer .footer-logo {
+  width: 25%;
+}
+
+#Footer .footer-logo .bbb-img {
+  width: 100%;
+  max-width: 180px;
+}
+#Footer .footer-logo .iccrc-img {
+  width: 100%;
+  max-width: 140px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+#Footer .footer-logo .ssl-img {
+  width: 100%;
+  max-width: 100px;
+  margin-top: 15px;
+}
+#Footer .sponsorlar ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 13px;
+}
+
+#Footer .sponsorlar a {
+  color: #7199c2;
+  text-decoration: none;
+}
+
+/*FOOTER END*/
+
+/* ALT FOOTER START */
+
+.AltFooter {
+  background: #15203a;
+  padding: 30px;
+}
+
+#AltFooter a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#AltFooter .justify-content-center {
+  justify-content: center !important;
+}
+
+#AltFooter .sag-img {
+  margin-top: -30px;
+  float: right;
+}
+#AltFooter .sag-img img {
+  width: 70px;
+}
+
+/* ALT FOOTER END */
+
+/* MEDIA START */
+
+@media (max-width: 768px) {
+  #Header .ust-alan {
+    flex-wrap: wrap;
+  }
+  #Header .header-logo img {
+    margin: auto;
+  }
+  #Canada {
+    clip-path: polygon(
+      20% 0%,
+      70% 0%,
+      100% 0,
+      100% 86%,
+      100% 87%,
+      64% 92%,
+      0 100%,
+      0 0
+    );
+  }
+  #WhyChooseUs .aciklamalar {
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  #WhyChooseUs .personal {
+    width: 100%;
+  }
+  #WhyChooseUs .applications {
+    width: 100%;
+  }
+  #WhyChooseUs .important {
+    width: 100%;
+  }
+  #Canada .icerikler {
+    flex-direction: column;
+  }
+  #Canada .image {
+    margin: auto;
+  }
+  #Canada .icerik {
+    width: 100%;
+  }
+  #Canada .image-orta {
+    margin: auto;
+  }
+  #Header .services {
+    text-align: center;
+    align-items: center;
+  }
+  #Footer .container {
+    flex-direction: column;
+  }
+  #Footer .hakkimizda {
+    width: 100%;
+  }
+  #Footer .services {
+    width: 100%;
+    margin-left: 0;
+  }
+  #Footer .footer-logo {
+    width: 100%;
+  }
+  #About-Yazi .alan {
+    width: 100%;
+  }
+  #Benefits-Yazi .alan {
+    width: 100%;
+  }
+  #Contact .header-logo img {
+    width: 300px;
+    object-fit: contain;
+  }
+  #Contact-Form .alan .hazne {
+    width: 100% !important;
+  }
+  #Services {
+    padding: 0px 0px 160px !important;
+  }
+  #AboutUs {
+    padding: 0px 0px 180px !important;
+  }
+  #Benefits {
+    padding: 0px 0px 150px !important;
+  }
+  #Contact {
+    padding: 0px 0px 150px !important;
+  }
+  #FAQ .alan {
+    width: 100% !important;
+  }
+  #FAQ .mobil-img {
+    width: 100%;
+  }
+  #AltFooter .sag-img {
+    margin-top: 20px !important;
+    float: unset;
+  }
+}
+
+/* MEDIA END */
+
+/* SERVICES START */
+
+#Services .alan {
+  display: flex;
+  align-items: center;
+}
+
+#Services::after {
+  display: block;
+  width: 100%;
+  height: 15vw;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  content: "";
+  transform: rotate(-5.5deg) translate(-50%, 68%);
+  transform-origin: top left;
+  z-index: 0;
+}
+
+#Services {
+  background: linear-gradient(-135deg, #00b4d5 0, #005ca3 100%);
+  overflow: hidden;
+  position: relative;
+  clip-path: polygon(100% 0, 0 88%, 0 0);
+  padding: 20px 0px 90px;
+}
+
+#Services2 .services a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#Services2 .services img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px transition 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+#Services2::after {
+  display: block;
+  width: 100%;
+  height: 15vw;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  content: "";
+  transform: rotate(-5.5deg) translate(-50%, 68%);
+  transform-origin: top left;
+  z-index: 0;
+}
+#Services2 {
+  padding: 40px 0px 134px;
+  overflow: hidden;
+  padding-bottom: 7vw;
+  position: relative;
+}
+
+#Services .services img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px transition 0.35s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+#Services .services a {
+  color: #fff;
+  text-decoration: none;
+}
+#Services2 .s1 {
+  display: flex;
+  margin-top: 10px;
+  max-width: 9rem;
+  font-size: 18px;
+  color: black;
+}
+
+#Services .Sol-Yazi {
+  width: 50;
+}
+
+#Services .Sag-Photo {
+  width: 50%;
+}
+
+#Services .Sag-Photo img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  transform: rotate(15deg);
+}
+
+#Services .ust-alan {
+  display: flex;
+  padding: 50px;
+}
+
+#Services2 .s2 {
+  display: flex;
+  margin-top: 10px;
+  max-width: 9rem;
+  font-size: 18px;
+  color: #f1bc20;
+}
+
+#Services2 .services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#Services .border-sayfa {
+  border-bottom: 3px solid #f6c01c !important;
+  padding: 5px;
+}
+
+#Services .header-logo {
+  width: 40%;
+  text-align: center;
+}
+
+#Services .header-logo img {
+  width: 300px;
+  object-fit: contain;
+}
+
+#Services .header-sag-menu {
+  width: 60%;
+}
+
+#Services .container h1 {
+  margin-top: 1em;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  color: #fff;
+  max-width: 40rem;
+  font-weight: 200;
+}
+
+#Services .container p {
+  font-size: 1.25rem;
+  line-height: 1.1;
+  color: #f6c01c;
+  max-width: 22rem;
+  margin: 1.75em 0;
+}
+
+#Services .header-sag-menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Services .header-sag-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 5px;
+}
+#Services .border-sabit {
+  border-bottom: 3px solid #f48033 !important;
+  padding: 6px;
+}
+
+#Services .header-sag-menu a:hover {
+  border-bottom: 3px solid #5ba6f2;
+}
+
+/* SERVICES END */
+
+/* STEP STARTED */
+
+#Step {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  background: #d8e0e4;
+}
+
+#Step i {
+  font-size: 40px;
+  transform: rotate(-45deg);
+  color: #0088bc;
+  margin-bottom: -15px;
+}
+
+#Step h3 {
+  line-height: 1.05;
+  color: #1b2846;
+  font-weight: 200;
+  margin: 10px;
+  font-size: 32px;
+}
+
+#Step a {
+  text-decoration: none;
+  color: white;
+}
+#Step .button {
+  background: #f48033;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #f48033;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* ABOUT-US STARTED  */
+
+#AboutUs .alan {
+  display: flex;
+  align-items: center;
+}
+
+#AboutUs {
+  background: linear-gradient(-135deg, #00b4d5 0, #005ca3 100%);
+  overflow: hidden;
+  position: relative;
+  clip-path: polygon(100% 0, 0 88%, 0 0);
+  padding: 20px 0px 90px;
+}
+
+#AboutUs .ust-alan {
+  display: flex;
+  padding: 50px;
+}
+
+#AboutUs .header-logo {
+  width: 40%;
+  text-align: center;
+}
+
+#AboutUs .header-logo img {
+  width: 300px;
+  object-fit: contain;
+}
+
+#AboutUs .header-sag-menu {
+  width: 60%;
+}
+
+#AboutUs .container h1 {
+  margin-top: 1em;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  color: #fff;
+  max-width: 40rem;
+  font-weight: 200;
+}
+#AboutUs .header-sag-menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#AboutUs .header-sag-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+}
+#AboutUs .border-sabit {
+  border-bottom: 3px solid #f48033 !important;
+  padding: 6px;
+}
+
+#AboutUs .header-sag-menu a:hover {
+  border-bottom: 3px solid #5ba6f2;
+}
+
+#AboutUs .border-sayfa {
+  border-bottom: 3px solid #f6c01c !important;
+  padding: 5px;
+}
+
+#About-Yazi {
+}
+
+#About-Yazi .alan {
+  width: 70%;
+}
+
+#About-Yazi .alan h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #1b2846;
+}
+
+#About-Yazi .alan p {
+  font-weight: 300;
+  margin-top: 20px;
+  color: #5f6e76;
+  font-size: 18px;
+}
+
+#About-Yazi .alan ul > li {
+  font-weight: 300;
+  color: #5f6e76;
+  line-height: 1.3;
+  margin-top: 10px;
+}
+
+#About-Yazi .alan strong {
+  font-weight: 600;
+}
+/* ABOUS-US END */
+
+/* BENEFITS START */
+
+#Benefits .alan {
+  display: flex;
+  align-items: center;
+}
+
+#Benefits {
+  background: linear-gradient(-135deg, #00b4d5 0, #005ca3 100%);
+  overflow: hidden;
+  position: relative;
+  clip-path: polygon(100% 0, 0 88%, 0 0);
+  padding: 20px 0px 90px;
+}
+
+#Benefits .ust-alan {
+  display: flex;
+  padding: 50px;
+}
+
+#Benefits .header-logo {
+  width: 40%;
+  text-align: center;
+}
+
+#Benefits .header-logo img {
+  width: 300px;
+  object-fit: contain;
+}
+
+#Benefits .header-sag-menu {
+  width: 60%;
+}
+
+#Benefits .container h1 {
+  margin-top: 1em;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  color: #fff;
+  max-width: 40rem;
+  font-weight: 200;
+}
+#Benefits .header-sag-menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Benefits .header-sag-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+}
+#Benefits .border-sabit {
+  border-bottom: 3px solid #f48033 !important;
+  padding: 6px;
+}
+
+#Benefits .header-sag-menu a:hover {
+  border-bottom: 3px solid #5ba6f2;
+}
+
+#Benefits .border-sayfa {
+  border-bottom: 3px solid #f6c01c !important;
+  padding: 5px;
+}
+
+#Benefits-yazi .alan {
+  width: 70%;
+}
+
+#Benefits-yazi .alan h2 {
+  font-weight: 300;
+  color: #1b2846;
+}
+
+#Benefits-yazi .alan p {
+  font-weight: 300;
+  margin-top: 20px;
+  color: #5f6e76;
+  font-size: 18px;
+}
+
+#Benefits-yazi .alan a {
+  color: #0088bc;
+}
+
+#Benefits-yazi .alan a:hover {
+  color: #0abbff;
+}
+/* BENEFITS END */
+
+/* Sıkça Sorulan Sorular - FAQ - Start */
+#header-FAQ .alan {
+  display: flex;
+  align-items: center;
+}
+
+#header-FAQ {
+  background: linear-gradient(-135deg, #00b4d5 0, #005ca3 100%);
+  overflow: hidden;
+  position: relative;
+  clip-path: polygon(100% 0, 0 88%, 0 0);
+  padding: 20px 0px 90px;
+}
+
+#header-FAQ .ust-alan {
+  display: flex;
+  padding: 50px;
+}
+
+#header-FAQ .header-logo {
+  width: 40%;
+  text-align: center;
+}
+
+#header-FAQ .header-logo img {
+  width: 300px;
+  object-fit: contain;
+}
+
+#header-FAQ .header-sag-menu {
+  width: 60%;
+}
+
+#header-FAQ .container h1 {
+  margin-top: 1em;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  color: #fff;
+  max-width: 40rem;
+  font-weight: 200;
+}
+#header-FAQ .header-sag-menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#header-FAQ .header-sag-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+}
+#header-FAQ .border-sabit {
+  border-bottom: 3px solid #f48033 !important;
+  padding: 6px;
+}
+
+#header-FAQ .header-sag-menu a:hover {
+  border-bottom: 3px solid #5ba6f2;
+}
+
+#header-FAQ .border-sayfa {
+  border-bottom: 3px solid #f6c01c !important;
+  padding: 5px;
+}
+
+#FAQ .alan {
+  width: 70%;
+}
+
+#FAQ .alan p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #5f6e76;
+}
+
+#FAQ .alan h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.7;
+}
+
+#FAQ .alan ul > li {
+  color: #5f6e76;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+#FAQ .alan a {
+  color: #0088bc;
+}
+
+#FAQ .alan a:hover {
+  color: #0abbff;
+}
+
+/* Sıkça Sorulan Sorular - FAQ - End */
+
+/* CONTACT START */
+#Contact .alan {
+  display: flex;
+  align-items: center;
+}
+
+#Contact {
+  background: linear-gradient(-135deg, #00b4d5 0, #005ca3 100%);
+  overflow: hidden;
+  position: relative;
+  clip-path: polygon(100% 0, 0 88%, 0 0);
+  padding: 20px 0px 90px;
+}
+
+#Contact .ust-alan {
+  display: flex;
+  padding: 50px;
+}
+
+#Contact .header-logo {
+  width: 40%;
+  text-align: center;
+}
+
+#Contact .header-logo img {
+  width: 300px;
+  object-fit: contain;
+}
+
+#Contact .header-sag-menu {
+  width: 60%;
+}
+
+#Contact .container h1 {
+  margin-top: 1em;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  color: #fff;
+  max-width: 40rem;
+  font-weight: 200;
+}
+#Contact .header-sag-menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Contact .header-sag-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+}
+#Contact .border-sabit {
+  border-bottom: 3px solid #f48033 !important;
+  padding: 6px;
+}
+
+#Contact .header-sag-menu a:hover {
+  border-bottom: 3px solid #5ba6f2;
+}
+
+#Contact .border-sayfa {
+  border-bottom: 3px solid #f6c01c !important;
+  padding: 5px;
+}
+
+#Contact-Form .alan h3 {
+  font-weight: 300;
+}
+
+#Contact-Form .alan .form {
+  width: 100%;
+}
+
+#Contact-Form .alan .form input {
+  width: 100%;
+  border-radius: 3px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+#Contact-Form .form p {
+  color: #b2c3cc;
+}
+#Contact-Form {
+  background: #f5f8f9;
+}
+
+#Contact-Form .buton-contact {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1;
+  color: #fff;
+  background: #f48033;
+  border: 2px solid #f48033;
+  padding: 0.6em 3.25em 0.75em;
+  border-radius: 0.25em;
+  transition: 0.25s;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+#Contact-Form .alan .hazne {
+  width: 60%;
+}
+
+#Contact-Form .sag-alan {
+  width: 40%;
+}
+#Contact-Form .sag-form {
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+/* 
+
+#Contact .title {
+  z-index: 0;
+  background: linear-gradient(-135deg, #00b4d5 0, #005ca3 100%);
+  overflow: hidden;
+  padding-bottom: 5rem;
+  position: relative;
+  padding-top: 10em;
+}
+
+#Contact .title:after {
+  display: block;
+  width: 120%;
+  height: 10vw;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background: #f5f8f9;
+  content: "";
+  transform: rotate(-5.5deg) translate(-50%, 50%);
+  transform-origin: top left;
+  z-index: 0;
+}
+*/
+/* CONTACT END */
